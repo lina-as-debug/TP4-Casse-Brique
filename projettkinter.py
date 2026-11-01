@@ -123,7 +123,7 @@ class CasseBrique:
         self.label_vies.pack(side=LEFT, padx=20)
 
         # 5. Nouveau panneau d'affichage épuré
-        self.label_journal = Label(self.window, text="Briques détruites: 0 | Points gagnés: 0 | Vies restantes: 3", 
+        self.label_journal = Label(self.window,text="Points gagnés : 0", 
                                 font=("Courier", 10, "bold"), bg='black', fg='lightgray')
         self.label_journal.pack(side=BOTTOM, fill=X, pady=5)
 
@@ -184,7 +184,7 @@ class CasseBrique:
         vies_restantes = len(self.pile_vies)
         
         # Construction de la ligne de texte
-        texte_statistiques = f"Briques détruites: {briques_detruites} | Points gagnés: {self.score} | Vies restantes: {vies_restantes}"
+        texte_statistiques = f"Points gagnés : {self.score}"
         self.label_journal.config(text=texte_statistiques)
 
     def perdre_une_vie(self):
