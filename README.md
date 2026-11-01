@@ -53,5 +53,5 @@ L'affichage des points gagnés.
 L'initialisation des vies.
 Pour lancer les tests :python -m unittest test_casse_brique.py -v
 
-7. Dépôt GitHub
+6. Dépôt GitHub
 Adresse du répertoire Git :https://github.com/lina-as-debug/TP4-Casse-Brique.git
